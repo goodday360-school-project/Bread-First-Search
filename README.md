@@ -9,7 +9,7 @@
  
 - An adjacency matrix graph (using 2D array)
   - file: ug_adjacency_matrix_graph.cpp
-  - assign to: Sophea
+  - assign to: 
  
 - An adjacency list graph (using linkedlist)
   - file: ug_adjacency_list_graph.cpp
@@ -18,17 +18,3 @@
 - Edge list graph (triplet)
   - file: ug_edge_list_graph.cpp
   - assign to: 
-
-## Directed graph (Digraph)
-- An adjacency matrix graph (using 2D array)
-  - file: dg_adjacency_matrix_graph.cpp
-  - assign to: 
-
-- An adjacency list graph (using linkedlist)
-  - file: dg_adjacency_list_graph.cpp
-  - assign to: 
-
-- Edge list graph (triplet)
-  - file: dg_edge_list_graph.cpp
-  - assign to: 
-
