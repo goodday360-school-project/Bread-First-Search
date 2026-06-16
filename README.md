@@ -21,11 +21,11 @@
 
 ## Directed graph (Digraph)
 - An adjacency matrix graph (using 2D array)
-  - file: dg_edge_list_graph.cpp
+  - file: dg_adjacency_matrix_graph.cpp
   - assign to: 
 
 - An adjacency list graph (using linkedlist)
-  - file: dg_edge_list_graph.cpp
+  - file: dg_adjacency_list_graph.cpp
   - assign to: 
 
 - Edge list graph (triplet)
