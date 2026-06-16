@@ -2,20 +2,19 @@
 
 ### Implenent BFS for the following data structure:
 
-## Undirected graph
 - Tree (using linkedlist)
-  - file: ug_tree.cpp
+  - file: tree.cpp
   - assign to: 
  
 - An adjacency matrix graph (using 2D array)
-  - file: ug_adjacency_matrix_graph.cpp
+  - file: adjacency_matrix_graph.cpp
   - assign to: Sophea
  
 - An adjacency list graph (using linkedlist)
-  - file: ug_adjacency_list_graph.cpp
+  - file: adjacency_list_graph.cpp
   - assign to:
  
 - Edge list graph (triplet)
-  - file: ug_edge_list_graph.cpp
+  - file: edge_list_graph.cpp
   - assign to: 
 
