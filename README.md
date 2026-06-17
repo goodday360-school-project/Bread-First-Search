@@ -18,5 +18,5 @@
   - file: edge_list_graph.cpp
   - assign to: 
 
-- Slide & Reports (2 people)
+- Slide & Reports (1 or 2 people)
   - assign to: ... & ...
