@@ -12,7 +12,7 @@
  
 - An adjacency list graph (using linkedlist)
   - file: adjacency_list_graph.cpp
-  - assign to:
+  - assign to: Mengan
  
 - Edge list graph (triplet)
   - file: edge_list_graph.cpp
