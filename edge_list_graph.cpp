@@ -7,9 +7,8 @@ class Edge {
 public:
     int src;
     int dest;
-    int weight;
 
-    Edge(int s, int d, int w = 1) : src(s), dest(d), weight(w) {}
+    Edge(int s, int d) : src(s), dest(d) {}
 };
 
 class Graph {
@@ -20,9 +19,9 @@ private:
 public:
     Graph(int n) : numVertices(n) {}
 
-    void addEdge(int i, int j, int weight = 1) {
-        edgeList.push_back(Edge(i, j, weight));
-        edgeList.push_back(Edge(j, i, weight)); // undirected, so store both directions
+    void addEdge(int i, int j) {
+        edgeList.push_back(Edge(i, j));
+        edgeList.push_back(Edge(j, i)); // undirected, so store both directions
     }
 
     void BFS(int startVertex) {
@@ -55,11 +54,10 @@ public:
     }
 
     void printEdgeList() {
-        cout << "Edge List (src, dest, weight):" << endl;
+        cout << "Edge List (src, dest):" << endl;
         for (int e = 0; e < (int)edgeList.size(); e++) {
             cout << "(" << (char)('A' + edgeList[e].src) << ", "
-                 << (char)('A' + edgeList[e].dest) << ", "
-                 << edgeList[e].weight << ")" << endl;
+                 << (char)('A' + edgeList[e].dest) << ")" << endl;
         }
         cout << endl;
     }
